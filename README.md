@@ -1,0 +1,18 @@
+- 📗 Table of Contents
+- 📖 About the Project
+- 🛠 Built With
+- Key Features
+- 💻 Getting Started
+- Setup
+- Prerequisites
+- Install
+- Usage
+- Run tests
+- Deployment
+- 👥 Authors
+- 🔭 Future Features
+- 🤝 Contributing
+- ⭐️ Show your support
+- 🙏 Acknowledgements
+- ❓ FAQ
+- 📝 License
