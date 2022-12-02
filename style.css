@@ -590,7 +590,7 @@ li {
   padding-top: 25px;
 }
 
- .lists {
+.lists {
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -608,13 +608,13 @@ li {
   transform: rotate(-45deg);
 }
 
- .image4 {
+.image4 {
   width: 18px;
   height: 18px;
   background: #ff6b00;
 }
 
- .femi {
+.femi {
   width: 18px;
   height: 18px;
   background: #ff6b00;
@@ -635,7 +635,7 @@ li {
   color: white;
 }
 
- .langv {
+.langv {
   width: 160px;
   height: 24px;
   font-family: Arial, Helvetica, sans-serif;
@@ -649,7 +649,7 @@ li {
   color: white;
 }
 
- .langvi {
+.langvi {
   width: 164px;
   height: 24px;
   font-family: Arial, Helvetica, sans-serif;
@@ -663,7 +663,7 @@ li {
   color: #fff;
 }
 
- .image5 {
+.image5 {
   width: 18px;
   height: 18px;
   background: #ff6b00;
@@ -690,7 +690,7 @@ li {
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
   padding-bottom: 70px;
   padding-top: 50px;
   padding-left: 125px;
