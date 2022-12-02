@@ -42,8 +42,7 @@
 ## Deployment
  - Deployed to GitHub
  
- ## 👥 Author
-  - VITOESI ELIJAH
+ ## 👥 VITOESI ELIJAH
   - GitHub: [@Ellyboi] (https://github.com/Ellyboi)
   - Twitter: [@Elijahvitoesi] (https://twitter.com/Elijahvitoesi)
   - LinkedIn: [Vitoesi Elijah] (https://www.linkedin.com/in/vitoesi-elijah-61961611a/)
