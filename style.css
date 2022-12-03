@@ -4,10 +4,11 @@
 }
 
 .container {
-  background-color: #f7f7f9;
-  width: 100%;
+  background-color: #fff;
+  width: 100vw;
   height: 6500px;
   margin: 0 auto;
+  padding-top: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,7 +20,7 @@
   width: 22.5rem;
   height: 735px;
   background: #1c1a19;
-  margin-top: 10px;
+  margin-top: 0;
 }
 
 .main-header {
@@ -70,16 +71,17 @@
   display: flex;
   align-items: center;
   width: 327px;
-  height: 150px;
+  height: 134px;
+  font-weight: lighter;
   font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 52px;
+  font-size: 35px;
+  line-height: 62px;
   color: #ff6b00;
-  margin-top: 114px;
+  margin-top: 100px;
+  letter-spacing: 3px;
   margin-left: 24px;
-  margin-bottom: 15px;
-  font-family: "Crete Round", serif;
+  margin-bottom: 20px;
+  font-family: "Crete Round", sans-serif;
 }
 
 .name1 {
@@ -293,6 +295,8 @@ li {
 
 .projects1 {
   width: 100%;
+  color: #fff;
+  font-weight: bold;
   height: 48px;
   background: #ff6b00;
   border-color: #ff6b00;
@@ -304,6 +308,7 @@ li {
 
 .projects {
   display: flex;
+  color: #ebebff;
   flex-direction: row;
   align-items: center;
   padding: 12px;
@@ -316,24 +321,6 @@ li {
   border-right: #ff6b00;
   border-left: #ff6b00;
   border-top: #ff6b00;
-}
-
-.see-projects {
-  width: 100px;
-  height: 24px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: white;
-  border-color: #ff6b00;
-  flex: none;
-  flex-grow: 0;
 }
 
 .stories {
@@ -473,20 +460,6 @@ li {
   color: #fff;
 }
 
-.see-projects1 {
-  width: 100px;
-  height: 24px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #fff;
-}
-
 .about {
   width: 22.5rem;
   height: 1550px;
@@ -527,6 +500,8 @@ li {
   padding: 12px;
   gap: 10px;
   width: 161px;
+  color: #fff;
+  font-weight: bold;
   height: 48px;
   background: #ff6b00;
   padding-left: 20px;
@@ -537,21 +512,6 @@ li {
   border-right: #ff6b00;
   border-top: #ff6b00;
   border-left: #ff6b00;
-}
-
-.resume {
-  width: 130px;
-  height: 24px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #fff;
 }
 
 .barQk {
@@ -742,20 +702,14 @@ li {
 .projects:hover {
   background-color: #f0bf9c;
   transition-duration: 0.05s;
-  cursor: pointer;
-}
-
-.see-projects:hover {
   color: #ff6b00;
+  cursor: pointer;
 }
 
 .projects1:hover {
   background-color: #f0bf9c;
   transition-duration: 0.05s;
   cursor: pointer;
-}
-
-.see-projects1:hover {
   color: #ff6b00;
 }
 
@@ -763,8 +717,5 @@ li {
   background-color: #f0bf9c;
   transition-duration: 0.05s;
   cursor: pointer;
-}
-
-.resume:hover {
   color: #ff6b00;
 }
