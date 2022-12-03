@@ -15,20 +15,22 @@
 }
 
 .introduction {
-  width: 20.5rem;
+  display: grid;
+  width: 22.5rem;
   height: 735px;
-  background: #3c3a39;
+  background: #1c1a19;
   margin-top: 10px;
-  margin-bottom: 80px;
-  background-image: url(img/Rectangle\ 73@2x.png);
-  background-repeat: no-repeat;
-  background-position-y: 100px;
+}
+
+.main-header {
+  padding-bottom: 40px;
+  background: #423f3e;
 }
 
 .pics {
   display: flex;
   float: right;
-  margin-top: -10px;
+  margin-top: -55px;
 }
 
 .header {
@@ -162,12 +164,7 @@ li {
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
-  width: 75px;
-  height: 768px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  padding-bottom: 230px;
+  width: 22.5rem;
 }
 
 .recent {
@@ -177,14 +174,13 @@ li {
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
-  line-height: 592px;
+  line-height: 92px;
   display: flex;
   color: #1c1a19;
   flex: none;
   order: 0;
   flex-grow: 0;
-  padding-bottom: 70px;
-  padding-top: 50px;
+  padding-left: 20px;
 }
 
 .barQf {
@@ -192,8 +188,8 @@ li {
   height: 6px;
   display: flex;
   margin-top: 1px;
-  padding-top: 180px;
   padding-bottom: 20px;
+  padding-left: 17px;
 }
 
 #barQf {
@@ -227,10 +223,6 @@ li {
   height: 40px;
   flex: none;
   flex-grow: 0;
-}
-
-.storiesQ {
-  padding-bottom: 50px;
 }
 
 .tag {
@@ -361,7 +353,7 @@ li {
 }
 
 .showcase {
-  width: 325px;
+  width: 22.5rem;
   height: 386px;
   flex: none;
   order: 0;
@@ -372,7 +364,7 @@ li {
 }
 
 .showcaseQ {
-  width: 325px;
+  width: 22.5rem;
   height: 386px;
   flex: none;
   order: 0;
@@ -403,7 +395,7 @@ li {
 }
 
 .stories1 {
-  width: 295px;
+  width: 22.5rem;
   height: 81px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -496,7 +488,7 @@ li {
 }
 
 .about {
-  width: 329px;
+  width: 22.5rem;
   height: 1550px;
   background: #1c1a19;
   text-align: start;
@@ -563,14 +555,14 @@ li {
 }
 
 .barQk {
-  width: 320px;
+  width: 360px;
   height: 6px;
   display: flex;
   margin-top: 1px;
 }
 
 #barQk {
-  width: 350px;
+  width: 370px;
   height: 2px;
   margin: 0 auto;
   background: #b9b3af;
@@ -748,7 +740,7 @@ li {
 }
 
 .projects:hover {
-  background-color: rgb(25, 233, 42);
+  background-color: #f0bf9c;
   transition-duration: 0.05s;
   cursor: pointer;
 }
@@ -758,7 +750,7 @@ li {
 }
 
 .projects1:hover {
-  background-color: rgb(25, 233, 42);
+  background-color: #f0bf9c;
   transition-duration: 0.05s;
   cursor: pointer;
 }
@@ -768,7 +760,7 @@ li {
 }
 
 .get:hover {
-  background-color: rgb(25, 233, 42);
+  background-color: #f0bf9c;
   transition-duration: 0.05s;
   cursor: pointer;
 }
