@@ -696,16 +696,16 @@ li {
 }
 
 #paragraph2 {
-  width: 320px;
+  width: 100%;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   text-align: center;
   color: #172b4d;
-  padding-top: 110px;
-  padding-left: 28px;
+  padding-top: 90px;
+  padding-left: 0%;
 }
 
 .projects:hover {
@@ -789,7 +789,6 @@ textarea {
 
 .myform {
   text-align: center;
-  padding-top: 270px;
 }
 
 .col-sm-6 {
@@ -829,11 +828,18 @@ footer {
   margin: 0 auto;
   background: #dee5ee;
   border-radius: 10px;
-  margin-top: 175px;
+  margin-top: 155px;
 }
 
 #message {
-  background-color: rgb(245, 245, 245);
+  background-color: #fbf8f7;
   width: 320px;
   height: 100px;
+  padding-top: 10px;
+  color: #3c3a39;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
 }
