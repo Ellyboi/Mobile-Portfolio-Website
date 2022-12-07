@@ -113,8 +113,6 @@
   padding-left: 20px;
   color: #fff;
   flex: none;
-  order: 2;
-  flex-grow: 0;
 }
 
 .media-icons {
@@ -343,7 +341,6 @@ li {
   align-items: center;
   color: #091e42;
   flex: none;
-  order: 0;
   flex-grow: 0;
   padding-top: 20px;
   padding-bottom: 15px;
@@ -365,8 +362,6 @@ li {
   width: 375px;
   height: 386px;
   flex: none;
-  order: 0;
-  flex-grow: 0;
   flex-direction: column;
   align-items: center;
   gap: 24px;
@@ -384,8 +379,6 @@ li {
   line-height: 24px;
   color: white;
   flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 .Art {
@@ -793,6 +786,7 @@ textarea {
 
 .myform {
   text-align: center;
+  display: flex;
 }
 
 .col-sm-6 {
