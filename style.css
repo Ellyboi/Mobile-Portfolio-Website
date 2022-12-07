@@ -789,6 +789,7 @@ textarea {
 
 .myform {
   text-align: center;
+  display: flexbox;
 }
 
 .col-sm-6 {
