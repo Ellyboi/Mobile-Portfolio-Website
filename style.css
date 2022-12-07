@@ -465,7 +465,7 @@ li {
 }
 
 .about {
-  width: 375px;
+  width: 100%;
   height: 1450px;
   background: #1c1a19;
   text-align: start;
