@@ -201,19 +201,19 @@
     <div class="contain">
       <p id="paragraph2">I'm always <br>interested in hearing about new projects, <br>so if you'd like to chat please get in touch.</p>
        <br><br>
-     <form class="myform">
+     <form id="form" action="https://formspree.io/f/myyvrjyj" method="post" class="myform">
        <div class="row">
         <div class="col-sm-6">
-          <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+          <input type="text" name="name" class="form-control" placeholder="Full Name" maxlength="30" required>
         </div>
         <div class="col-sm-6">
           <input type="email" name="email" class="form-control" placeholder="Email Address" required>
          </div>
          <div class="col-sm-6">
-            <textarea name="message" id="message" class="form-control" placeholder="Enter text here" required></textarea>
+            <textarea name="message" id="message" class="form-control" placeholder="Enter text here"  maxlength="500" required></textarea>
          </div>
         </div>
-            <button href="#" class="project8" type="submit">Get in touch</button>
+            <button href="#" class="project8" type="submit" value="Get In touch">Get in touch</button>
           <div id="barr"></div>
       </form>
    </div>
