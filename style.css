@@ -715,6 +715,10 @@ li {
   cursor: pointer;
 }
 
+.myform1 {
+  text-align: center;
+}
+
 .projects1:hover {
   background-color: #f0bf9c;
   transition-duration: 0.05s;
@@ -789,7 +793,6 @@ textarea {
 
 .myform {
   text-align: center;
-  display: flexbox;
 }
 
 .col-sm-6 {
