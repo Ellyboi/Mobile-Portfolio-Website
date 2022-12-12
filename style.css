@@ -220,8 +220,7 @@ li {
 }
 
 .tags {
-  display: flex;
-  flex-direction: row;
+  float: left;
   align-items: center;
   padding-bottom: 10px;
   gap: 12px;
